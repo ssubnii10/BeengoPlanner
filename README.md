@@ -1,5 +1,9 @@
 # BeengoPlanner 🗓️
 
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-blue)
+![Tech](https://img.shields.io/badge/built%20with-Expo-black)
+
 취준생을 위한 스마트 일정 관리 앱입니다.
 AI 일정 파싱, 리포트, 테마 커스터마이징 등 취준 생활에 필요한 기능을 직접 기획하고 개발했습니다.
 
