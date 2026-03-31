@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# BeengoPlanner 🗓️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+취준생을 위한 스마트 일정 관리 앱입니다.
+AI 파싱, 리포트, 테마 커스터마이징 등 다양한 기능을 제공합니다.
 
-## Get started
+## 시작하기
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. 의존성 설치
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. 앱 실행
+```bash
+npx expo start
+```
 
-## Learn more
+실행 후 아래 방법으로 앱을 열 수 있어요.
 
-To learn more about developing your project with Expo, look at the following resources:
+- **실제 기기** — Expo Go 앱 설치 후 QR 코드 스캔
+- **Android 에뮬레이터** — Android Studio 필요
+- **iOS 시뮬레이터** — Mac + Xcode 필요
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Pro 기능
 
-## Join the community
+| 기능 | Free | Pro |
+|------|------|-----|
+| 기본 일정 관리 | ✅ | ✅ |
+| 시그니처 테마 | ✅ | ✅ |
+| 추가 테마 변경 | ❌ | ✅ |
+| AI 파싱 무제한 | ❌ | ✅ |
+| 리포트 기능 | ❌ | ✅ |
 
-Join our community of developers creating universal apps.
+## 관련 프로젝트
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [BeengoPlanner Payment API](https://github.com/ssubnii10/beengoplanner-payment-api) — Pro 구독 결제 백엔드
+
+## 기술 스택
+
+- React Native (Expo)
+- TypeScript
+- Expo Router
